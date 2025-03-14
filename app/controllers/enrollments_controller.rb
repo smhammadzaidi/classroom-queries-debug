@@ -11,4 +11,4 @@ class EnrollmentsController < ApplicationController
       redirect_to("/students/#{@enrollment.student_id}", { :notice => "Enrollment failed to create successfully." })
     end
   end
-end
+end 
